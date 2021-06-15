@@ -8,6 +8,9 @@ public class Main {
 		product.name = "Mouse";
 		product.price = 10;
 		productManager.add(product);
+		
+		
+		DatabaseHelper.crud.delete();
+		DatabaseHelper.Connection.createConnection();
 	}
-
 }
